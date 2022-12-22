@@ -8,8 +8,8 @@ client.once(Events.ClientReady, c => {
 });
 
 client.on('messageCreate', async message=>{
-    if (message.content.toLowerCase() == 'hallo') {
-        await message.channel.send("Tes")
+    if (message.content.toLowerCase() == 'makan') {
+        await message.channel.send("Gas")
     }
 })
 
